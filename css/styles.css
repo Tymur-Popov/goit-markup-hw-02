@@ -7,6 +7,9 @@
   --footer-accent-color: #ffffff;
   --font-weight-main: 500;
   --font-weight-secondary: bold;
+  --font-weight-p: 400;
+  --font-weight-member: 500;
+
   --main-font-color: #212121;
   --header-info-color: #757575;
   --hero-background-color: #2f303a;
@@ -125,6 +128,7 @@ li {
 /* OUR QUALITIES */
 
 .qualities-name {
+  font-size: 14px;
   font-weight: var(--font-weight-secondary);
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -133,6 +137,8 @@ li {
 }
 
 .qualities-description {
+  font-size: 14px;
+  font-weight: var(--font-weight-p);
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-color);
@@ -166,12 +172,14 @@ li {
 
 .team-member {
   font-size: 16px;
+  font-weight: var(--font-weight-member);
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .member-description {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -190,6 +198,7 @@ li {
 }
 
 .location-link {
+  font-weight: 400;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -203,6 +212,7 @@ li {
 
 .footer-mail,
 .footer-tel {
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-main-color);
@@ -221,6 +231,7 @@ li {
 .filter-button {
   font-family: inherit;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -244,6 +255,7 @@ li {
 }
 
 .project-description {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
